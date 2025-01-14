@@ -1,4 +1,5 @@
 import selectDropdown from "./element-select.po"
+const data = require('/cypress/fixtures/data.json');
 
 describe('Amazon Item Test', function(){
     const action = new selectDropdown();
