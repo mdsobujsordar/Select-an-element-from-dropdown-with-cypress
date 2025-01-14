@@ -5,13 +5,11 @@ const { runPythonScript } = require("./cypress/plugin/google-sheet.plugin");
 const installLogsPrinter = require("cypress-terminal-report/src/installLogsPrinter");
 
 module.exports = defineConfig({
-  projectId: "xsrr7n",
   viewportWidth: 1000,
   viewportHeight: 660,
   reporter: "cypress-mochawesome-reporter",
   reporterOptions: {
     charts: true,
-    reportPageTitle: "mra-ims-test-report",
     embeddedScreenshots: true,
     inlineAssets: true,
     saveAllAttempts: false,
