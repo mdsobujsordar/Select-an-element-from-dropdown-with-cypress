@@ -1,4 +1,4 @@
-class seliseAssessment {
+class selectDropdown {
     baseURL () {
         cy.fixture('data.json').then((data) =>{
             cy.visit(data.url);
@@ -18,4 +18,4 @@ class seliseAssessment {
         })
     }
 }
-export default seliseAssessment;
+export default selectDropdown;

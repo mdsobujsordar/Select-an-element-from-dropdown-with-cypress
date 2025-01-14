@@ -1,7 +1,7 @@
-import seliseAssessment from "./element-select.po"
+import selectDropdown from "./element-select.po"
 
 describe('Amazon Item Test', function(){
-    const action = new seliseAssessment();
+    const action = new selectDropdown();
     beforeEach(() => {
         cy.window().then(win => win.sessionStorage.clear());
         cy.clearCookies();
